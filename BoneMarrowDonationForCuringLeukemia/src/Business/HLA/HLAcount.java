@@ -9,6 +9,6 @@ package Business.HLA;
  *
  * @author nitin
  */
-public class Count_HLA {
+public class HLAcount {
     
 }

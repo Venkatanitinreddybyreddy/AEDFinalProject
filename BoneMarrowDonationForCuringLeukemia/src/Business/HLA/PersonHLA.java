@@ -9,6 +9,6 @@ package Business.HLA;
  *
  * @author nitin
  */
-public class HLA_Person {
+public class PersonHLA {
     
 }

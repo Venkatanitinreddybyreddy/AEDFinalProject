@@ -8,6 +8,9 @@ package Magic.Design;
  *
  * @author balumullamuri
  */
-public class MyJTextField {
+public class MyJTextField extends javax.swing.JTextField {
+    public MyJTextField() {
+//        this.setFont(new java.awt.Font("Arial", 1, 14));
+    }
     
 }

@@ -8,6 +8,15 @@ package Business.WorkQueue;
  *
  * @author balumullamuri
  */
-public class SystemCoordinatorTestWorkRequest {
+public class SystemCoordinatorTestWorkRequest extends WorkRequest {
+    private String testResult;
+
+    public String getTestResult() {
+        return testResult;
+    }
+
+    public void setTestResult(String testResult) {
+        this.testResult = testResult;
+    }
     
 }

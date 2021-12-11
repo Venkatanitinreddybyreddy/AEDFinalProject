@@ -3,41 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< Updated upstream
             <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/People/Donor.java</file>
-=======
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/People/DonorRequestDirectory.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Magic/Design/MyJTextField.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/People/PatientRequest.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/Role/Role.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/Role/AdminRole.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/People/Donor.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/People/DonorRequest.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/Network/Network.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/HLA/HLAcount.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/People/PatientRequestDirectory.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Magic/Design/MyTableFormat.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/Role/LegalOfficerRole.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/UserAccount/UserAccount.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/People/PatientDirectory.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/Role/CancerCentreCordinatorRole.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/Role/DoctorRole.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/Role/BoneMarrowBankCoordinator.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/Role/SystemCoordinatorRole.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/Role/SystemAdminRole.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/HLA/PersonHLA.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/WorkQueue/SystemCoordinatorTestWorkRequest.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/People/Patient.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/Organization/Admin.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/People/DonorDirectory.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/UserAccount/UserAccountDirectory.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Magic/Design/MyJLabel.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/WorkQueue/WorkQueue.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Magic/Design/MyJButton.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/ConfigureASystem.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/Role/MedicalTechnicianRole.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/WorkQueue/WorkRequest.java</file>
->>>>>>> Stashed changes
         </group>
     </open-files>
 </project-private>

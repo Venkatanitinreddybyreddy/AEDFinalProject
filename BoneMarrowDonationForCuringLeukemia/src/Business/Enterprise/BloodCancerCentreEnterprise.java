@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author nitin
+ * @author JKU
  */
 public class BloodCancerCentreEnterprise extends Enterprise {
     
@@ -21,4 +21,5 @@ public class BloodCancerCentreEnterprise extends Enterprise {
     public ArrayList<Role> getSupportedRole() {
         return null;
     }
+    
 }

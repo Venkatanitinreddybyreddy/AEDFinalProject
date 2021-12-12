@@ -10,14 +10,16 @@ import java.util.ArrayList;
 
 /**
  *
- * @author nitin
+ * @author JKU
  */
-public class BoneMarrowBankEnterprise extends Enterprise{
-     public BoneMarrowBankEnterprise(String name){
+public class BoneMarrowBankEnterprise extends Enterprise {
+    
+    public BoneMarrowBankEnterprise(String name){
         super(name,EnterpriseType.BoneMarrowBank);
     }
     @Override
     public ArrayList<Role> getSupportedRole() {
         return null;
     }
+    
 }

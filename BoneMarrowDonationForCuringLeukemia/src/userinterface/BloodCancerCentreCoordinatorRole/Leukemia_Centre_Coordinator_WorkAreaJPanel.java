@@ -93,21 +93,21 @@ public class Leukemia_Centre_Coordinator_WorkAreaJPanel extends javax.swing.JPan
 
         Header = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        btnProfile = new MyJLabel();
+        btnProfile = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
-        btnManageRequests = new MyJLabel();
-        btnReceiveRequests = new MyJLabel();
-        btnPatientStatus = new MyJLabel();
+        btnManageRequests = new javax.swing.JLabel();
+        btnReceiveRequests = new javax.swing.JLabel();
+        btnPatientStatus = new javax.swing.JLabel();
         userProcessContainer = new javax.swing.JPanel();
 
         setPreferredSize(new java.awt.Dimension(800, 500));
         setLayout(new java.awt.BorderLayout());
 
-        Header.setBackground(new java.awt.Color(15, 29, 52));
+        Header.setBackground(new java.awt.Color(102, 102, 102));
         Header.setPreferredSize(new java.awt.Dimension(800, 50));
         Header.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel2.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel2.setBackground(new java.awt.Color(102, 102, 102));
 
         btnProfile.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnProfile.setForeground(new java.awt.Color(255, 255, 255));
@@ -138,7 +138,7 @@ public class Leukemia_Centre_Coordinator_WorkAreaJPanel extends javax.swing.JPan
 
         Header.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 130, -1));
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(102, 102, 102));
 
         btnManageRequests.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnManageRequests.setForeground(new java.awt.Color(255, 255, 255));
@@ -191,7 +191,7 @@ public class Leukemia_Centre_Coordinator_WorkAreaJPanel extends javax.swing.JPan
 
         add(Header, java.awt.BorderLayout.PAGE_START);
 
-        userProcessContainer.setBackground(new java.awt.Color(241, 250, 238));
+        userProcessContainer.setBackground(new java.awt.Color(255, 153, 153));
         userProcessContainer.setLayout(new java.awt.CardLayout());
         add(userProcessContainer, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents

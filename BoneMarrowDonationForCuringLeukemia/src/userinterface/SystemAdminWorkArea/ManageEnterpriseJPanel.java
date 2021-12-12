@@ -74,7 +74,7 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
         jLabel7 = new javax.swing.JLabel();
         btnDelete = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setPreferredSize(new java.awt.Dimension(1150, 720));
 
         tblEnterprises.setBackground(new java.awt.Color(0, 0, 0));

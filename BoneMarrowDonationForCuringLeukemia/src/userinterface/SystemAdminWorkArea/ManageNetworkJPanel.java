@@ -87,7 +87,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         jLabel12 = new javax.swing.JLabel();
         btnDeleteNetwork = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setMinimumSize(new java.awt.Dimension(1150, 670));
         setPreferredSize(new java.awt.Dimension(1150, 720));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -180,7 +180,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
 
         add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 380, 440));
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(102, 102, 102));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N

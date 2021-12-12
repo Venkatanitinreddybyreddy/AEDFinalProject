@@ -164,23 +164,23 @@ public class CreateDonorJPanel extends javax.swing.JPanel {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         tblGoogleSheet = new javax.swing.JTable();
-        jLabel1 = new MyJLabel();
-        jLabel2 = new MyJLabel();
-        jLabel3 = new MyJLabel();
-        nameTextField = new MyJTextField();
-        contactTextField = new MyJTextField();
-        buttonCreate = new MyJButton();
-        jLabel4 = new MyJLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        nameTextField = new javax.swing.JTextField();
+        contactTextField = new javax.swing.JTextField();
+        buttonCreate = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         donorTable = new javax.swing.JTable();
         jPanel3 = new javax.swing.JPanel();
-        jLabel25 = new MyJLabel();
-        jLabel5 = new MyJLabel();
-        jLabel6 = new MyJLabel();
-        uidTextField = new MyJTextField();
-        hlaTypeTextField = new MyJTextField();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        uidTextField = new javax.swing.JTextField();
+        hlaTypeTextField = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tblGoogleSheet.setBackground(new java.awt.Color(0, 0, 0));
@@ -281,7 +281,7 @@ public class CreateDonorJPanel extends javax.swing.JPanel {
 
         add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 600, 1180, 220));
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(102, 102, 102));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
 
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N

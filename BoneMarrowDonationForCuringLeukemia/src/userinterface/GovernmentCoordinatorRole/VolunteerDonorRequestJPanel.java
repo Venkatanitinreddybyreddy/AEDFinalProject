@@ -119,7 +119,7 @@ public class VolunteerDonorRequestJPanel extends javax.swing.JPanel {
         btnApprove = new javax.swing.JButton();
         btnReject = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setMinimumSize(new java.awt.Dimension(1450, 830));
         setPreferredSize(new java.awt.Dimension(1150, 720));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -262,7 +262,7 @@ public class VolunteerDonorRequestJPanel extends javax.swing.JPanel {
         nameText.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
         add(nameText, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 320, 180, -1));
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(102, 102, 102));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
 
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N

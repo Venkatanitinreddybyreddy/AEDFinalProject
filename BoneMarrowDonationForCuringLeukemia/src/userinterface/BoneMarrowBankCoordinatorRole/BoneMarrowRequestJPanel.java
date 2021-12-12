@@ -98,7 +98,7 @@ public class BoneMarrowRequestJPanel extends javax.swing.JPanel {
         tblHlaAvailability = new javax.swing.JTable();
         jLabel6 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setForeground(new java.awt.Color(255, 255, 255));
         setMinimumSize(new java.awt.Dimension(1150, 720));
         setPreferredSize(new java.awt.Dimension(1150, 830));
@@ -165,6 +165,7 @@ public class BoneMarrowRequestJPanel extends javax.swing.JPanel {
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
         jPanel3.setLayout(new java.awt.GridLayout(1, 0));
 
+        jLabel25.setBackground(new java.awt.Color(255, 153, 153));
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel25.setForeground(new java.awt.Color(255, 255, 255));
         jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);

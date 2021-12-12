@@ -126,7 +126,7 @@ public class VolunteerReceiverRequestJPanel extends javax.swing.JPanel {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setMinimumSize(new java.awt.Dimension(1000, 700));
         setPreferredSize(new java.awt.Dimension(1150, 720));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -251,7 +251,7 @@ public class VolunteerReceiverRequestJPanel extends javax.swing.JPanel {
         jLabel19.setText("Was your disease confirmed by Medical Practitioner?");
         add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 550, -1, -1));
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(102, 102, 102));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
 
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N

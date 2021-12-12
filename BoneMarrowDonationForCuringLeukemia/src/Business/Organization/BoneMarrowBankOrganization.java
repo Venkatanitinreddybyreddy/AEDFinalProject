@@ -5,7 +5,10 @@
  */
 package Business.Organization;
 
+import Business.HLA.HLACount;
 import Business.HLA.PersonHLA;
+import Business.Role.DoctorRole;
+import Business.Role.BoneMarrowBankCoordinatorRole;
 import Business.Role.Role;
 import java.util.ArrayList;
 import java.util.HashMap;

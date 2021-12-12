@@ -1,19 +1,21 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
+ * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
 package Business.Organization;
 
+import Business.Role.DoctorRole;
+import Business.Role.GovernmentCoordinatorRole;
 import Business.Role.Role;
 import java.util.ArrayList;
 
 /**
  *
- * @author saiku
+ * @author nitin
  */
-public class GovernamentOrganization extends Organization{
-        public GovernmentOrganization() {
+public class GovernmentOrganization extends Organization{
+
+    public GovernmentOrganization() {
         super(Organization.GovernmentType.Government.getValue());
     }
     
@@ -23,5 +25,5 @@ public class GovernamentOrganization extends Organization{
         roles.add(new GovernmentCoordinatorRole());
         return roles;
     }
-    
+     
 }

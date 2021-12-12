@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class HRSAEnterprise extends Enterprise {
     
      public HRSAEnterprise(String name){
-        super(name,Enterprise.EnterpriseType.HRSA);
+        super(name,EnterpriseType.HRSA);
     }
     @Override
     public ArrayList<Role> getSupportedRole() {

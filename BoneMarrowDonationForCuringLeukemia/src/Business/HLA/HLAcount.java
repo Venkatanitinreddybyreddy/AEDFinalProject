@@ -13,7 +13,7 @@ import java.util.HashMap;
  *
  * @author nitin
  */
-public class HLAcount {
+public class HLACount {
     HashMap<String, Integer> HLAComboCounts;
     
     public HLACount() {

@@ -8,14 +8,17 @@ import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
 import Business.Network.Network;
 import Business.Organization.Organization;
+import Business.Organization.BoneMarrowBankOrganization;
 import Business.UserAccount.UserAccount;
+
 import javax.swing.JPanel;
+import userinterface.BoneMarrowBankCoordinatorRole.BoneMarrowBankCoordinatorWorkAreaJPanel;
 
 /**
  *
  * @author balumullamuri
  */
-public class BoneMarrowBankCoordinator extends Role {
+public class BoneMarrowBankCoordinatorRole extends Role {
     
     @Override
     public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise, EcoSystem business, Network network) {

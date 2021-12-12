@@ -216,7 +216,7 @@ public class NewDonorJPanel extends javax.swing.JPanel {
         hlaTypesTextField = new javax.swing.JTextField();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 formMouseClicked(evt);
@@ -459,7 +459,7 @@ public class NewDonorJPanel extends javax.swing.JPanel {
         });
         add(genderJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 320, 170, -1));
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(255, 153, 153));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
 
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N

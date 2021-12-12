@@ -135,7 +135,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         jLabel8 = new javax.swing.JLabel();
         HLATypesTextField = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setMinimumSize(new java.awt.Dimension(1150, 720));
         setPreferredSize(new java.awt.Dimension(1150, 820));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -240,10 +240,11 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
 
         add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 570, 900, 220));
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(102, 102, 102));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel25.setBackground(new java.awt.Color(255, 153, 153));
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel25.setForeground(new java.awt.Color(255, 255, 255));
         jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);

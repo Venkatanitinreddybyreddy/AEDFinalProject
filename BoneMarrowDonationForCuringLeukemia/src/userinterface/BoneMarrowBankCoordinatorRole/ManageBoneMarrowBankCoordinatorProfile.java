@@ -74,7 +74,7 @@ public class ManageBoneMarrowBankCoordinatorProfile extends javax.swing.JPanel {
         comboGender = new javax.swing.JComboBox();
         jLabel9 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N

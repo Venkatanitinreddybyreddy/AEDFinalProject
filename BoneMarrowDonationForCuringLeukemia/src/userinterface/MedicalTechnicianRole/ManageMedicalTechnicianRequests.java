@@ -137,7 +137,7 @@ public class ManageMedicalTechnicianRequests extends javax.swing.JPanel {
         jSeparator1 = new javax.swing.JSeparator();
         txtHLAList = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setPreferredSize(new java.awt.Dimension(1150, 720));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -303,7 +303,7 @@ public class ManageMedicalTechnicianRequests extends javax.swing.JPanel {
         });
         add(checkTest, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 560, 30, 30));
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(102, 102, 102));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
 
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N

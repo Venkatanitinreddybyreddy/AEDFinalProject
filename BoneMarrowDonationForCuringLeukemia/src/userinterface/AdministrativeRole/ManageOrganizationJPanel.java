@@ -171,7 +171,7 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         nameSeparator4 = new javax.swing.JSeparator();
         enterpriseNameTextField1 = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setMinimumSize(new java.awt.Dimension(1000, 700));
         setPreferredSize(new java.awt.Dimension(1150, 720));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -211,7 +211,7 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 280, 650, 270));
 
-        panel1.setBackground(new java.awt.Color(241, 250, 238));
+        panel1.setBackground(new java.awt.Color(255, 153, 153));
         panel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 255, 204)));
         panel1.setPreferredSize(new java.awt.Dimension(250, 400));
         panel1.setRequestFocusEnabled(false);
@@ -277,6 +277,7 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         jPanel3.setBackground(new java.awt.Color(31, 31, 31));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
 
+        jLabel5.setBackground(new java.awt.Color(255, 153, 153));
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);

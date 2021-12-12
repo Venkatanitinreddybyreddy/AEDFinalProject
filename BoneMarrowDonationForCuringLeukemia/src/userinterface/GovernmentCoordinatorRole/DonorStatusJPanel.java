@@ -91,14 +91,14 @@ public class DonorStatusJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         donorRequestTable = new javax.swing.JTable();
         jPanel3 = new javax.swing.JPanel();
-        jLabel25 = new MyJLabel();
-        jButton1 = new MyJButton();
+        jLabel25 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
         donorTable = new javax.swing.JTable();
-        jLabel1 = new MyJLabel();
-        jLabel2 = new MyJLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         donorRequestTable.setBackground(new java.awt.Color(0, 0, 0));
@@ -120,7 +120,7 @@ public class DonorStatusJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 430, 1030, 160));
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(255, 153, 153));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
 
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N

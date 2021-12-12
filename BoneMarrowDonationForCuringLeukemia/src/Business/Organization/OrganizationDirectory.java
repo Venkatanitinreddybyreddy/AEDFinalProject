@@ -55,7 +55,7 @@ public class OrganizationDirectory {
      public Organization createBoneMarrowOrganization(Organization.BoneMarrowBankType bmBankType, String realName){
         Organization organization = null;
         if (bmBankType.getValue().equals(Organization.BoneMarrowBankType.BoneMarrowBank.getValue())){
-            organization = new BoneMarrowBankOrganization();
+            organization = new Bone_Marrow_Bank_Organization();
             organization.setRealName(realName);
             organizationList.add(organization);
         }
@@ -65,7 +65,7 @@ public class OrganizationDirectory {
      public Organization createCancerCentreOrganization(Organization.BloodCancerCentreType cancerType, String realName){
         Organization organization = null;
         if (cancerType.getValue().equals(Organization.BloodCancerCentreType.BloodCancerCentre.getValue())){
-            organization = new BloodCancerCentreOrganization();
+            organization = new Leukemia_Centre_Organization();
             organization.setRealName(realName);
             organizationList.add(organization);
         }

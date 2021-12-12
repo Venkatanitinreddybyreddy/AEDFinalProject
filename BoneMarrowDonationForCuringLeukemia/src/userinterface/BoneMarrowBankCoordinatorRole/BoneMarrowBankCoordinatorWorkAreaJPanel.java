@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.BoneMarrowBankCoordinatorRole;
+package userinterface.Bone_Marrow_Bank_CoordinatorRole;
 
 import Business.DB4OUtil.DB4OUtil;
 import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
 import Business.Network.Network;
-import Business.Organization.BoneMarrowBankOrganization;
+import Business.Organization.Bone_Marrow_Bank_Organization;
 import Business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import java.awt.Color;
@@ -36,13 +36,13 @@ public class BoneMarrowBankCoordinatorWorkAreaJPanel extends javax.swing.JPanel 
      */
     boolean a = true;
     private UserAccount userAccount;
-    private BoneMarrowBankOrganization bmBankOrganization;
+    private Bone_Marrow_Bank_Organization bmBankOrganization;
     private Enterprise enterprise;
     private EcoSystem system;
     private Network network;
     private DB4OUtil dB4OUtil = DB4OUtil.getInstance();
     
-    public BoneMarrowBankCoordinatorWorkAreaJPanel(UserAccount account, BoneMarrowBankOrganization bmBankOrganization, Enterprise enterprise, EcoSystem business, Network network) {
+    public BoneMarrowBankCoordinatorWorkAreaJPanel(UserAccount account, Bone_Marrow_Bank_Organization bmBankOrganization, Enterprise enterprise, EcoSystem business, Network network) {
         initComponents();
         this.userAccount = account;
         this.bmBankOrganization = bmBankOrganization;
@@ -88,7 +88,7 @@ public class BoneMarrowBankCoordinatorWorkAreaJPanel extends javax.swing.JPanel 
 
         Header.setBackground(new java.awt.Color(15, 29, 52));
         Header.setPreferredSize(new java.awt.Dimension(800, 50));
-        Header.setLayout(new java.awt.GridLayout());
+        Header.setLayout(new java.awt.GridLayout(1, 0));
 
         BtnProfile.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         BtnProfile.setForeground(new java.awt.Color(255, 255, 255));
@@ -116,7 +116,7 @@ public class BoneMarrowBankCoordinatorWorkAreaJPanel extends javax.swing.JPanel 
 
         add(Header, java.awt.BorderLayout.PAGE_START);
 
-        userProcessContainer.setBackground(new java.awt.Color(241, 250, 238));
+        userProcessContainer.setBackground(new java.awt.Color(255, 153, 153));
         userProcessContainer.setLayout(new java.awt.CardLayout());
         add(userProcessContainer, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents

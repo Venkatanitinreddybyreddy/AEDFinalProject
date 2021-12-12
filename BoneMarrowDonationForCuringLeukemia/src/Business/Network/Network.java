@@ -4,7 +4,7 @@
  */
 package Business.Network;
 
-import Business.Enterprise.EnterpriseDirectory;
+import Business.Enterprise.Enterprise_Directory;
 
 /**
  *
@@ -17,10 +17,10 @@ public class Network {
     
     
     
-    private EnterpriseDirectory enterpriseDirectory;
+    private Enterprise_Directory Enterprise_Directory;
     
     public Network(){
-        enterpriseDirectory=new EnterpriseDirectory();
+        Enterprise_Directory=new Enterprise_Directory();
     }
     public String getName() {
         return name;
@@ -30,8 +30,8 @@ public class Network {
         this.name = name;
     }
 
-    public EnterpriseDirectory getEnterpriseDirectory() {
-        return enterpriseDirectory;
+    public Enterprise_Directory getEnterprise_Directory() {
+        return Enterprise_Directory;
     }
 
     public String getState() {

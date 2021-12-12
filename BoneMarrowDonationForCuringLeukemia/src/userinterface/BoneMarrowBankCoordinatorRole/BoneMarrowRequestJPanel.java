@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.BoneMarrowBankCoordinatorRole;
+package userinterface.Bone_Marrow_Bank_CoordinatorRole;
 
 import Business.HLA.PersonHLA;
 import Business.DB4OUtil.DB4OUtil;
@@ -12,7 +12,7 @@ import Business.Enterprise.Enterprise;
 import Business.Network.Network;
 import Magic.Design.*;
 import Business.Organization.Organization;
-import Business.Organization.BoneMarrowBankOrganization;
+import Business.Organization.Bone_Marrow_Bank_Organization;
 import Business.Organization.SystemCoordinatorOrganization;
 import Business.UserAccount.UserAccount;
 import Business.WorkQueue.WorkRequest;
@@ -35,13 +35,13 @@ public class BoneMarrowRequestJPanel extends javax.swing.JPanel {
      * Creates new form BoneMarrowRequestJPanel
      */
     private UserAccount userAccount;
-    private BoneMarrowBankOrganization marroworganization;
+    private Bone_Marrow_Bank_Organization marroworganization;
     private Enterprise enterprise;
     private Network network;
     private DB4OUtil dB4OUtil = DB4OUtil.getInstance();
     private EcoSystem system;
     
-    public BoneMarrowRequestJPanel(UserAccount userAccount, BoneMarrowBankOrganization bmBankOrganization, Enterprise enterprise, Network network, EcoSystem system) {
+    public BoneMarrowRequestJPanel(UserAccount userAccount, Bone_Marrow_Bank_Organization bmBankOrganization, Enterprise enterprise, Network network, EcoSystem system) {
         initComponents();
         this.userAccount = userAccount;
         this.marroworganization = bmBankOrganization;
@@ -98,7 +98,7 @@ public class BoneMarrowRequestJPanel extends javax.swing.JPanel {
         tblHlaAvailability = new javax.swing.JTable();
         jLabel6 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setForeground(new java.awt.Color(255, 255, 255));
         setMinimumSize(new java.awt.Dimension(1150, 720));
         setPreferredSize(new java.awt.Dimension(1150, 830));
@@ -165,6 +165,7 @@ public class BoneMarrowRequestJPanel extends javax.swing.JPanel {
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
         jPanel3.setLayout(new java.awt.GridLayout(1, 0));
 
+        jLabel25.setBackground(new java.awt.Color(255, 153, 153));
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel25.setForeground(new java.awt.Color(255, 255, 255));
         jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -232,7 +233,7 @@ public class BoneMarrowRequestJPanel extends javax.swing.JPanel {
                 Enterprise ent = null;
                 Organization org = null;
         
-                for (Enterprise enterprise : network.getEnterpriseDirectory().getEnterpriseList()) {
+                for (Enterprise enterprise : network.getEnterprise_Directory().getEnterpriseList()) {
                     if (enterprise.getEnterpriseType().toString().equals("Hospital")) {
                             ent = enterprise;
                             break;

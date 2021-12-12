@@ -7,21 +7,21 @@ package Business.Role;
 import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
 import Business.Network.Network;
-import Business.Organization.BloodCancerCentreOrganization;
 import Business.Organization.Organization;
+import Business.Organization.Bone_Marrow_Bank_Organization;
 import Business.UserAccount.UserAccount;
 
 import javax.swing.JPanel;
-import userinterface.BloodCancerCentreCoordinatorRole.BloodCancerCentreCoordinatorWorkAreaJPanel;
+import userinterface.Bone_Marrow_Bank_CoordinatorRole.BoneMarrowBankCoordinatorWorkAreaJPanel;
 
 /**
  *
  * @author balumullamuri
  */
-public class CancerCentreCoordinatorRole extends Role {
+public class Bone_Marrow_Bank_CoordinatorRole extends Role {
     
-     @Override
+    @Override
     public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise, EcoSystem business, Network network) {
-        return new BloodCancerCentreCoordinatorWorkAreaJPanel(account, (BloodCancerCentreOrganization) organization, enterprise, business, network);
+        return new BoneMarrowBankCoordinatorWorkAreaJPanel(account, (Bone_Marrow_Bank_Organization)organization, enterprise, business, network);
     }
 }

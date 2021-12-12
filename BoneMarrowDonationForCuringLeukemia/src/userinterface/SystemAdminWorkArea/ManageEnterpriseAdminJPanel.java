@@ -52,7 +52,7 @@ private boolean checkUserIdExists(String userName) {
         if (system.getUserAccountDirectory().checkIfUsernameIsUnique(userName)) {
             if (system.getUserAccountDirectory().checkIfUsernameIsUnique(userName)) {
                 for (Network network : system.getNetworkList()) {
-                    for (Enterprise enterprise : network.getEnterpriseDirectory().getEnterpriseList()) {
+                    for (Enterprise enterprise : network.getEnterprise_Directory().getEnterpriseList()) {
                         if (enterprise.getUserAccountDirectory().checkIfUsernameIsUnique(userName)) {
                             if (enterprise.getOrganizationDirectory().getOrganizationList().size() > 0) {
                                 for (Organization organization : enterprise.getOrganizationDirectory().getOrganizationList()) {
@@ -86,7 +86,7 @@ private boolean checkUserIdExists(String userName) {
 
         model.setRowCount(0);
         for (Network network : system.getNetworkList()) {
-            for (Enterprise enterprise : network.getEnterpriseDirectory().getEnterpriseList()) {
+            for (Enterprise enterprise : network.getEnterprise_Directory().getEnterpriseList()) {
                 
                 Object[] row = new Object[6];
                 row[0] = enterprise;
@@ -159,12 +159,12 @@ private boolean checkUserIdExists(String userName) {
         ));
         jScrollPane2.setViewportView(jTable1);
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setMinimumSize(new java.awt.Dimension(1150, 770));
         setPreferredSize(new java.awt.Dimension(1150, 720));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(102, 102, 102));
         jPanel3.setPreferredSize(new java.awt.Dimension(1550, 70));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
@@ -224,7 +224,7 @@ private boolean checkUserIdExists(String userName) {
 
         add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 390, 640, 190));
 
-        jPanel2.setBackground(new java.awt.Color(241, 250, 238));
+        jPanel2.setBackground(new java.awt.Color(255, 153, 153));
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 255, 204)));
         jPanel2.setPreferredSize(new java.awt.Dimension(250, 400));
         jPanel2.setRequestFocusEnabled(false);

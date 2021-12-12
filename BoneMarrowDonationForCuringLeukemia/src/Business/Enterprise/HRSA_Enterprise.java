@@ -12,9 +12,9 @@ import java.util.ArrayList;
  *
  * @author balumullamuri
  */
-public class HRSAEnterprise extends Enterprise {
+public class HRSA_Enterprise extends Enterprise {
     
-    public HRSAEnterprise(String name){
+    public HRSA_Enterprise(String name){
         super(name,EnterpriseType.HRSA);
     }
     @Override

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.BloodCancerCentreCoordinatorRole;
+package userinterface.BloodLeukemia_Centre_Coordinator_Role;
 
 import static java.time.Clock.system;
 import javax.swing.JFrame;
@@ -17,7 +17,7 @@ import Business.EcoSystem;
 import userinterface.DoctorRole.*;
 import Business.Enterprise.Enterprise;
 import Business.Network.Network;
-import Business.Organization.BloodCancerCentreOrganization;
+import Business.Organization.Leukemia_Centre_Organization;
 import Business.Organization.DoctorOrganization;
 import Business.Organization.Organization;
 import Business.People.PatientDirectory;
@@ -37,15 +37,15 @@ import static javax.swing.SwingUtilities.getWindowAncestor;
  *
  * @author nitin
  */
-public class BloodCancerCentreCoordinatorWorkAreaJPanel extends javax.swing.JPanel {
+public class Leukemia_Centre_Coordinator_WorkAreaJPanel extends javax.swing.JPanel {
 
     /**
-     * Creates new form BloodCancerCentreCoordinatorWorkAreaJPanel
+     * Creates new form Leukemia_Centre_Coordinator_WorkAreaJPanel
      * 
      */
     boolean a = true;
     private UserAccount userAccount;
-    BloodCancerCentreOrganization cancerCentreOrganization;
+    Leukemia_Centre_Organization cancerCentreOrganization;
     Enterprise enterprise;
     EcoSystem system;
     PatientDirectory patientDirectory;
@@ -53,7 +53,7 @@ public class BloodCancerCentreCoordinatorWorkAreaJPanel extends javax.swing.JPan
     private Network network;
     
     
-    public BloodCancerCentreCoordinatorWorkAreaJPanel(UserAccount account,BloodCancerCentreOrganization cancerCentreOrganization, Enterprise enterprise, EcoSystem system, Network network) {
+    public Leukemia_Centre_Coordinator_WorkAreaJPanel(UserAccount account,Leukemia_Centre_Organization cancerCentreOrganization, Enterprise enterprise, EcoSystem system, Network network) {
         initComponents();
         this.system = system;
         this.userAccount = account;
@@ -93,21 +93,21 @@ public class BloodCancerCentreCoordinatorWorkAreaJPanel extends javax.swing.JPan
 
         Header = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        btnProfile = new MyJLabel();
+        btnProfile = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
-        btnManageRequests = new MyJLabel();
-        btnReceiveRequests = new MyJLabel();
-        btnPatientStatus = new MyJLabel();
+        btnManageRequests = new javax.swing.JLabel();
+        btnReceiveRequests = new javax.swing.JLabel();
+        btnPatientStatus = new javax.swing.JLabel();
         userProcessContainer = new javax.swing.JPanel();
 
         setPreferredSize(new java.awt.Dimension(800, 500));
         setLayout(new java.awt.BorderLayout());
 
-        Header.setBackground(new java.awt.Color(15, 29, 52));
+        Header.setBackground(new java.awt.Color(102, 102, 102));
         Header.setPreferredSize(new java.awt.Dimension(800, 50));
         Header.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel2.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel2.setBackground(new java.awt.Color(102, 102, 102));
 
         btnProfile.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnProfile.setForeground(new java.awt.Color(255, 255, 255));
@@ -138,7 +138,7 @@ public class BloodCancerCentreCoordinatorWorkAreaJPanel extends javax.swing.JPan
 
         Header.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 130, -1));
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(102, 102, 102));
 
         btnManageRequests.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnManageRequests.setForeground(new java.awt.Color(255, 255, 255));
@@ -191,7 +191,7 @@ public class BloodCancerCentreCoordinatorWorkAreaJPanel extends javax.swing.JPan
 
         add(Header, java.awt.BorderLayout.PAGE_START);
 
-        userProcessContainer.setBackground(new java.awt.Color(241, 250, 238));
+        userProcessContainer.setBackground(new java.awt.Color(255, 153, 153));
         userProcessContainer.setLayout(new java.awt.CardLayout());
         add(userProcessContainer, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents

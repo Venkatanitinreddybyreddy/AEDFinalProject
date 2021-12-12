@@ -82,7 +82,7 @@ public class ManageMedicalTechnicianProfile extends javax.swing.JPanel {
         jLabel9 = new javax.swing.JLabel();
         txtEmail = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));

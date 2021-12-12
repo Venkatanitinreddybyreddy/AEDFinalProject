@@ -10,14 +10,14 @@ import Business.EcoSystem;
 import Magic.Design.*;
 import Magic.Design.MyJButton;
 import Business.Enterprise.Enterprise;
-import Business.Enterprise.EnterpriseDirectory;
+import Business.Enterprise.Enterprise_Directory;
 import Business.Network.Network;
 import Business.Organization.Organization;
 import Business.Organization.MedicalTechnicianOrganization;
 import Business.People.Donor;
 import Business.People.DonorDirectory;
 import Business.UserAccount.UserAccount;
-import Business.WorkQueue.SystemCoordinatorTestWorkRequest;
+import Business.WorkQueue.System_Coordinator_Test_WorkRequest;
 import Business.WorkQueue.WorkRequest;
 import Magic.Design.MyTableFormat;
 import java.util.Date;
@@ -38,7 +38,7 @@ public class DonorListJPanel extends javax.swing.JPanel {
      */
     //private DonorDirectory donorDirectory;
     private EcoSystem system;
-    private EnterpriseDirectory enterpriseDirectory;
+    private Enterprise_Directory Enterprise_Directory;
     private Network network;
     private UserAccount userAccount;
     private DB4OUtil dB4OUtil = DB4OUtil.getInstance();
@@ -81,10 +81,10 @@ public class DonorListJPanel extends javax.swing.JPanel {
         dtm.setRowCount(0);
         
         System.out.println("list of enterprises:");
-       // System.out.println(enterpriseDirectory.getEnterpriseList());
+       // System.out.println(Enterprise_Directory.getEnterpriseList());
         System.out.println("list of enterprises ends");
         System.out.println(network.getName());
-        for (Enterprise enterprise : network.getEnterpriseDirectory().getEnterpriseList()){
+        for (Enterprise enterprise : network.getEnterprise_Directory().getEnterpriseList()){
             if(enterprise.getEnterpriseType().toString().equals("Hospital")){
                 System.out.println("Hosp");
                 Object[] row = new Object[2];
@@ -153,7 +153,7 @@ public class DonorListJPanel extends javax.swing.JPanel {
         ));
         jScrollPane3.setViewportView(jTable1);
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setPreferredSize(new java.awt.Dimension(1350, 720));
 
         tblDonors.setBackground(new java.awt.Color(0, 0, 0));
@@ -252,7 +252,7 @@ public class DonorListJPanel extends javax.swing.JPanel {
         tblAssignment.setShowVerticalLines(false);
         jScrollPane4.setViewportView(tblAssignment);
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(102, 102, 102));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
 
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
@@ -338,7 +338,7 @@ public class DonorListJPanel extends javax.swing.JPanel {
             //return;
         }
         else{
-            WorkRequest request = new SystemCoordinatorTestWorkRequest();
+            WorkRequest request = new System_Coordinator_Test_WorkRequest();
             if(request.getDonor() == null)
                 request.setDonor((Donor) tblDonors.getValueAt(row, 0));
             if(request.getDonor().getStatus().equals("Government Approved"))

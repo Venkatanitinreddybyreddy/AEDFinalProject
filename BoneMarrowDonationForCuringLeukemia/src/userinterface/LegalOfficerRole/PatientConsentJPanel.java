@@ -12,7 +12,7 @@ import Business.Employee.Employee;
 import Business.Enterprise.Enterprise;
 import Business.Network.Network;
 import Business.Organization.Organization;
-import Business.Organization.BoneMarrowBankOrganization;
+import Business.Organization.Bone_Marrow_Bank_Organization;
 import Business.UserAccount.UserAccount;
 import Business.WorkQueue.WorkRequest;
 import Magic.Design.*;
@@ -97,7 +97,7 @@ public class PatientConsentJPanel extends javax.swing.JPanel {
         lblConsent = new javax.swing.JLabel();
         btnPatientAgreement = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tblPatientConsent.setBackground(new java.awt.Color(0, 0, 0));
@@ -172,7 +172,7 @@ public class PatientConsentJPanel extends javax.swing.JPanel {
         });
         add(btnConsentForm, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 330, 220, 40));
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(102, 102, 102));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
 
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
@@ -241,7 +241,7 @@ public class PatientConsentJPanel extends javax.swing.JPanel {
         Enterprise ent = null;
         Organization org = null;
         
-        for (Enterprise enterprise : network.getEnterpriseDirectory().getEnterpriseList()) {
+        for (Enterprise enterprise : network.getEnterprise_Directory().getEnterpriseList()) {
             if (enterprise.getEnterpriseType().toString().equals("BoneMarrowBank")) {
             
                 ent = enterprise;
@@ -251,7 +251,7 @@ public class PatientConsentJPanel extends javax.swing.JPanel {
         }
         
         for (Organization organization : ent.getOrganizationDirectory().getOrganizationList()) {
-            if(organization instanceof BoneMarrowBankOrganization) {
+            if(organization instanceof Bone_Marrow_Bank_Organization) {
                 org = organization;
                 break;
             }

@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.BloodCancerCentreCoordinatorRole;
+package userinterface.BloodLeukemia_Centre_Coordinator_Role;
 import Business.Enterprise.Enterprise;
-import Business.Organization.BloodCancerCentreOrganization;
+import Business.Organization.Leukemia_Centre_Organization;
 import Business.Organization.GovernmentOrganization;
 import Business.UserAccount.UserAccount;
 import Magic.Design.MyJButton;
@@ -25,11 +25,11 @@ public class ManageCancerCentreCoordinatorProfile extends javax.swing.JPanel {
      private UserAccount userAccount;
      private Enterprise enterprise ;
      private GovernmentOrganization govtOrganization;
-     private BloodCancerCentreOrganization cancerCentreOrganization;
+     private Leukemia_Centre_Organization cancerCentreOrganization;
     
 
 
-    ManageCancerCentreCoordinatorProfile(UserAccount userAccount, BloodCancerCentreOrganization cancerCentreOrganization, Enterprise enterprise) {
+    ManageCancerCentreCoordinatorProfile(UserAccount userAccount, Leukemia_Centre_Organization cancerCentreOrganization, Enterprise enterprise) {
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
          initComponents();
         this.userAccount = userAccount;
@@ -65,7 +65,7 @@ public class ManageCancerCentreCoordinatorProfile extends javax.swing.JPanel {
         txtDOB = new javax.swing.JTextField();
         btnSave = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N

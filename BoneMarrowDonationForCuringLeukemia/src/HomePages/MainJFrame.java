@@ -69,7 +69,7 @@ public class MainJFrame extends javax.swing.JFrame {
         rightJPanel.setAutoscrolls(true);
         rightJPanel.setLayout(new java.awt.CardLayout());
 
-        jPanel1.setBackground(new java.awt.Color(209, 240, 177));
+        jPanel1.setBackground(new java.awt.Color(255, 153, 153));
         jPanel1.setMaximumSize(new java.awt.Dimension(1200, 1200));
 
         imgHope.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/hope.png"))); // NOI18N
@@ -103,7 +103,7 @@ public class MainJFrame extends javax.swing.JFrame {
         leftJPanel.setPreferredSize(new java.awt.Dimension(1150, 720));
         leftJPanel.setLayout(new java.awt.CardLayout());
 
-        jPanel3.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel3.setBackground(new java.awt.Color(255, 153, 153));
         jPanel3.setAutoscrolls(true);
 
         loginJButton.setBackground(new java.awt.Color(255, 255, 255));
@@ -124,7 +124,7 @@ public class MainJFrame extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Username");
 
-        jPanel2.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel2.setBackground(new java.awt.Color(255, 153, 153));
 
         donorSignUpBtn.setBackground(new java.awt.Color(255, 255, 255));
         donorSignUpBtn.setText("Register as Donor");
@@ -253,7 +253,7 @@ public class MainJFrame extends javax.swing.JFrame {
             //Step 2: Go inside each network and check each enterprise
             for(Network network:system.getNetworkList()){
                 //Step 2.a: check against each enterprise
-                for(Enterprise enterprise:network.getEnterpriseDirectory().getEnterpriseList()){
+                for(Enterprise enterprise:network.getEnterprise_Directory().getEnterpriseList()){
                     userAccount=enterprise.getUserAccountDirectory().authenticateUser(userName, password);
                     if(userAccount==null){
                        //Step 3:check against each organization for each enterprise

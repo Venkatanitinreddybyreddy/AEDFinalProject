@@ -100,7 +100,7 @@ public class SystemCoordinatorWorkAreaJPanel extends javax.swing.JPanel {
 
         Header.setBackground(new java.awt.Color(15, 29, 52));
         Header.setPreferredSize(new java.awt.Dimension(1150, 70));
-        Header.setLayout(new java.awt.GridLayout());
+        Header.setLayout(new java.awt.GridLayout(1, 0));
 
         BtnDonorList.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         BtnDonorList.setForeground(new java.awt.Color(255, 255, 255));
@@ -140,7 +140,7 @@ public class SystemCoordinatorWorkAreaJPanel extends javax.swing.JPanel {
 
         add(Header, java.awt.BorderLayout.PAGE_START);
 
-        userProcessContainer.setBackground(new java.awt.Color(241, 250, 238));
+        userProcessContainer.setBackground(new java.awt.Color(255, 153, 153));
         userProcessContainer.setPreferredSize(new java.awt.Dimension(1400, 720));
         userProcessContainer.setLayout(new java.awt.CardLayout());
         add(userProcessContainer, java.awt.BorderLayout.CENTER);

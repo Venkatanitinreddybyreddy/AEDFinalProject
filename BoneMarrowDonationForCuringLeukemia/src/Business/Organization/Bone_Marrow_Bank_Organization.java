@@ -8,7 +8,7 @@ package Business.Organization;
 import Business.HLA.HLACount;
 import Business.HLA.PersonHLA;
 import Business.Role.DoctorRole;
-import Business.Role.BoneMarrowBankCoordinatorRole;
+import Business.Role.Bone_Marrow_Bank_CoordinatorRole;
 import Business.Role.Role;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,10 +17,10 @@ import java.util.HashMap;
  *
  * @author saiku
  */
-public class BoneMarrowBankOrganization extends Organization{
+public class Bone_Marrow_Bank_Organization extends Organization{
         HLACount inventory;
     
-    public BoneMarrowBankOrganization() {
+    public Bone_Marrow_Bank_Organization() {
         super(Organization.BoneMarrowBankType.BoneMarrowBank.getValue());
         inventory = new HLACount();
         PersonHLA h = new PersonHLA();
@@ -49,7 +49,7 @@ public class BoneMarrowBankOrganization extends Organization{
     @Override
     public ArrayList<Role> getSupportedRole() {
         ArrayList<Role> roles = new ArrayList();
-        roles.add(new BoneMarrowBankCoordinatorRole());
+        roles.add(new Bone_Marrow_Bank_CoordinatorRole());
         return roles;
     }
      

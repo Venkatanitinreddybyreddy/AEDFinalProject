@@ -17,7 +17,7 @@ import java.util.Date;
 
 /**
  *
- * @author JKU
+ * @author balumullamuri
  */
 public class ManageMedicalTechnicianProfile extends javax.swing.JPanel {
 

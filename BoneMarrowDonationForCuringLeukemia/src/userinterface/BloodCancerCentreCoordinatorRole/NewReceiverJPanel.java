@@ -40,7 +40,7 @@ import static userinterface.GovernmentCoordinatorRole.NewDonorJPanel.emailValida
 
 /**
  *
- * @author JKU
+ * @author nitin
  */
 public class NewReceiverJPanel extends javax.swing.JPanel {
 

@@ -29,7 +29,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author JKU
+ * @author balumullamuri
  */
 public class ManageLegalOfficerRequestJPanel extends javax.swing.JPanel {
 

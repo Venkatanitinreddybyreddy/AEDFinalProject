@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author JKU
+ * @author balumullamuri
  */
 public class LegalEnterprise extends Enterprise {
     

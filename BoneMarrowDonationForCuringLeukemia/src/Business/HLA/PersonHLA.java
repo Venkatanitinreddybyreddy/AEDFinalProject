@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author nitin
+ * @author balumullamuri
  */
 public class PersonHLA {
     private ArrayList<HLAType> hlaList = new ArrayList();

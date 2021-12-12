@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.Bone_Marrow_Bank_CoordinatorRole;
+package userinterface.BoneMarrowBankCoordinatorRole;
 
 import userinterface.DoctorRole.*;
 import Business.EcoSystem;

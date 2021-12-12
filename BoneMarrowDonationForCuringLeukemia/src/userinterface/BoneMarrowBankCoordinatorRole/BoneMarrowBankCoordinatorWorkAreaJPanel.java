@@ -22,6 +22,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 import static javax.swing.SwingUtilities.getWindowAncestor;
+import userinterface.BoneMarrowBankCoordinatorRole.ManageBoneMarrowBankCoordinatorProfile;
 
 /**
  *

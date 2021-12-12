@@ -118,7 +118,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
         jPanel3 = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(241, 250, 238));
+        setBackground(new java.awt.Color(255, 153, 153));
         setMinimumSize(new java.awt.Dimension(1150, 730));
         setPreferredSize(new java.awt.Dimension(1150, 730));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -196,7 +196,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
 
         add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, 900, 170));
 
-        jPanel3.setBackground(new java.awt.Color(31, 31, 31));
+        jPanel3.setBackground(new java.awt.Color(102, 102, 102));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
 
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N

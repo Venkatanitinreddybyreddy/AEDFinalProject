@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.BloodCancerCentreCoordinatorRole;
+package userinterface.BloodLeukemia_Centre_Coordinator_Role;
 import Business.Enterprise.Enterprise;
-import Business.Organization.BloodCancerCentreOrganization;
+import Business.Organization.Leukemia_Centre_Organization;
 import Business.Organization.GovernmentOrganization;
 import Business.UserAccount.UserAccount;
 import Magic.Design.MyJButton;
@@ -16,7 +16,7 @@ import java.util.Date;
 
 /**
  *
- * @author JKU
+ * @author nitin
  */
 public class ManageCancerCentreCoordinatorProfile extends javax.swing.JPanel {
 
@@ -25,11 +25,11 @@ public class ManageCancerCentreCoordinatorProfile extends javax.swing.JPanel {
      private UserAccount userAccount;
      private Enterprise enterprise ;
      private GovernmentOrganization govtOrganization;
-     private BloodCancerCentreOrganization cancerCentreOrganization;
+     private Leukemia_Centre_Organization cancerCentreOrganization;
     
 
 
-    ManageCancerCentreCoordinatorProfile(UserAccount userAccount, BloodCancerCentreOrganization cancerCentreOrganization, Enterprise enterprise) {
+    ManageCancerCentreCoordinatorProfile(UserAccount userAccount, Leukemia_Centre_Organization cancerCentreOrganization, Enterprise enterprise) {
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
          initComponents();
         this.userAccount = userAccount;

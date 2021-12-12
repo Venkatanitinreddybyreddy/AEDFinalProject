@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.BloodCancerCentreCoordinatorRole;
+package userinterface.BloodLeukemia_Centre_Coordinator_Role;
 
 import Business.DB4OUtil.DB4OUtil;
 import Business.EcoSystem;
@@ -15,7 +15,7 @@ import Business.Organization.Organization;
 import Business.People.Patient;
 import Business.People.PatientRequest;
 import Business.UserAccount.UserAccount;
-import Business.WorkQueue.SystemCoordinatorTestWorkRequest;
+import Business.WorkQueue.System_Coordinator_Test_WorkRequest;
 import Business.WorkQueue.WorkRequest;
 import Magic.Design.MyJButton;
 import Magic.Design.MyTableFormat;
@@ -35,7 +35,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author JKU
+ * @author nitin
  */
 public class VolunteerReceiverRequestJPanel extends javax.swing.JPanel {
 
@@ -408,7 +408,7 @@ public class VolunteerReceiverRequestJPanel extends javax.swing.JPanel {
         Enterprise ent = null;
         Organization org = null;
         
-        for (Enterprise enterprise : network.getEnterpriseDirectory().getEnterpriseList()) {
+        for (Enterprise enterprise : network.getEnterprise_Directory().getEnterpriseList()) {
             if (enterprise.getEnterpriseType().toString().equals("Legal")) {
             
                 ent = enterprise;
@@ -429,7 +429,7 @@ public class VolunteerReceiverRequestJPanel extends javax.swing.JPanel {
         if (org != null) {
             // WORK REQUEST
         
-            WorkRequest request = new SystemCoordinatorTestWorkRequest();
+            WorkRequest request = new System_Coordinator_Test_WorkRequest();
 
             request.setPatient(patient);
             request.setActionDate(new Date());

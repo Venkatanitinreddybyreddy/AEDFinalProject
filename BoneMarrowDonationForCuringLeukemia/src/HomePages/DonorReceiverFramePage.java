@@ -10,15 +10,13 @@ import Business.People.DonorRequestDirectory;
 import java.awt.CardLayout;
 import java.awt.Dimension;
 import java.awt.Toolkit;
-import userinterface.BloodCancerCentreCoordinatorRole.NewReceiverJPanel;
+import userinterface.BloodLeukemia_Centre_Coordinator_Role.NewReceiverJPanel;
 import userinterface.GovernmentCoordinatorRole.NewDonorJPanel;
 
 
 public class DonorReceiverFramePage extends javax.swing.JFrame {
 
-    /**
-     * Creates new form DonorReceiverFramePage
-     */
+    
     
     
     public DonorReceiverFramePage(String type, EcoSystem system) {

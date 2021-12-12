@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.BoneMarrowBankCoordinatorRole;
+package userinterface.Bone_Marrow_Bank_CoordinatorRole;
 
 import Business.DB4OUtil.DB4OUtil;
 import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
 import Business.Network.Network;
-import Business.Organization.BoneMarrowBankOrganization;
+import Business.Organization.Bone_Marrow_Bank_Organization;
 import Business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import java.awt.Color;
@@ -25,7 +25,7 @@ import static javax.swing.SwingUtilities.getWindowAncestor;
 
 /**
  *
- * @author JKU
+ * @author balumullamuri
  */
 
 
@@ -36,13 +36,13 @@ public class BoneMarrowBankCoordinatorWorkAreaJPanel extends javax.swing.JPanel 
      */
     boolean a = true;
     private UserAccount userAccount;
-    private BoneMarrowBankOrganization bmBankOrganization;
+    private Bone_Marrow_Bank_Organization bmBankOrganization;
     private Enterprise enterprise;
     private EcoSystem system;
     private Network network;
     private DB4OUtil dB4OUtil = DB4OUtil.getInstance();
     
-    public BoneMarrowBankCoordinatorWorkAreaJPanel(UserAccount account, BoneMarrowBankOrganization bmBankOrganization, Enterprise enterprise, EcoSystem business, Network network) {
+    public BoneMarrowBankCoordinatorWorkAreaJPanel(UserAccount account, Bone_Marrow_Bank_Organization bmBankOrganization, Enterprise enterprise, EcoSystem business, Network network) {
         initComponents();
         this.userAccount = account;
         this.bmBankOrganization = bmBankOrganization;

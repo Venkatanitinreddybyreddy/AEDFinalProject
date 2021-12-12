@@ -26,7 +26,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author JKU
+ * @author saiku
  */
 public class ManageUserAccountJPanel extends javax.swing.JPanel {
 
@@ -372,7 +372,7 @@ private boolean checkUserIdExists(String userName) {
         if (system.getUserAccountDirectory().checkIfUsernameIsUnique(userName)) {
             if (system.getUserAccountDirectory().checkIfUsernameIsUnique(userName)) {
                 for (Network network : system.getNetworkList()) {
-                    for (Enterprise enterprise : network.getEnterpriseDirectory().getEnterpriseList()) {
+                    for (Enterprise enterprise : network.getEnterprise_Directory().getEnterpriseList()) {
                         if (enterprise.getUserAccountDirectory().checkIfUsernameIsUnique(userName)) {
                             if (enterprise.getOrganizationDirectory().getOrganizationList().size() > 0) {
                                 for (Organization organization : enterprise.getOrganizationDirectory().getOrganizationList()) {

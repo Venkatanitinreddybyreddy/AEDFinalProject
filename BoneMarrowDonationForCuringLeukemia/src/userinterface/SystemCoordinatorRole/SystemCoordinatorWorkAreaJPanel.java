@@ -7,7 +7,7 @@ package userinterface.SystemCoordinatorRole;
 
 /**
  *
- * @author JKU
+ * @author saiku
  */
 
 

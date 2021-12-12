@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.BloodCancerCentreCoordinatorRole;
+package userinterface.BloodLeukemia_Centre_Coordinator_Role;
 
 import Business.DB4OUtil.DB4OUtil;
 import Business.EcoSystem;
@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author JKU
+ * @author nitin
  */
 public class PatientStatusJPanel extends javax.swing.JPanel {
 

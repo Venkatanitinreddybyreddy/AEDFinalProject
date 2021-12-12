@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author JKU
+ * @author saiku
  */
 public class AdminOrganization extends Organization{
 

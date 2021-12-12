@@ -7,10 +7,12 @@ package Business;
 
 import Business.Employee.Employee;
 import Business.Network.Network;
+import Business.Organization.Organization;
 import Business.People.DonorDirectory;
 import Business.People.DonorRequestDirectory;
 import Business.People.PatientDirectory;
 import Business.People.PatientRequestDirectory;
+
 import Business.Role.Role;
 import Business.Role.SystemAdminRole;
 import Business.UserAccount.UserAccount;
@@ -19,11 +21,11 @@ import java.util.ArrayList;
 
 /**
  *
- * @author nitin
+ * @author JKU
  */
-public class EcoSystem {
+public class EcoSystem extends Organization{
     
-     private static EcoSystem business;
+    private static EcoSystem business;
     
     /*
 private UserAccountDirectory userAccountDirectory;

@@ -5,15 +5,15 @@
  */
 package Business.Enterprise;
 
+import Business.Organization.OrganizationDirectory;
 import java.util.ArrayList;
 
 /**
  *
- * @author nitin
+ * @author balumullamuri
  */
 public class EnterpriseDirectory {
-    
-     private ArrayList<Enterprise> enterpriseList;
+    private ArrayList<Enterprise> enterpriseList;
    
 
     public ArrayList<Enterprise> getEnterpriseList() {
@@ -44,11 +44,11 @@ public class EnterpriseDirectory {
             enterpriseList.add(enterprise);
         }
         else if(type==Enterprise.EnterpriseType.BoneMarrowBank){
-            enterprise=new BoneMarrowBankEnterprise(name);
+            enterprise=new Bone_Marrow_Bank_Enterprise(name);
             enterpriseList.add(enterprise);
         }
         else if(type==Enterprise.EnterpriseType.BloodCancerCentre){
-            enterprise=new BloodCancerCentreEnterprise(name);
+            enterprise=new Leukemia_Centre_Enterprise(name);
             enterpriseList.add(enterprise);
         }
         

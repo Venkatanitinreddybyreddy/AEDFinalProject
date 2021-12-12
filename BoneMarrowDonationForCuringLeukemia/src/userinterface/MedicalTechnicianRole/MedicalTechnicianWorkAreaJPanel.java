@@ -7,7 +7,7 @@ package userinterface.MedicalTechnicianRole;
 
 /**
  *
- * @author JKU
+ * @author balumullamuri
  */
 
 import Business.DB4OUtil.DB4OUtil;

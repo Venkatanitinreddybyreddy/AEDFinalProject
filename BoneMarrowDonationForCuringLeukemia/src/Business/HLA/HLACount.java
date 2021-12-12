@@ -11,7 +11,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author nitin
+ * @author balumullamuri
  */
 public class HLACount {
     HashMap<String, Integer> HLAComboCounts;

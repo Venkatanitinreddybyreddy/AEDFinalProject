@@ -10,15 +10,16 @@ import java.util.ArrayList;
 
 /**
  *
- * @author nitin
+ * @author balumullamuri
  */
 public class HRSAEnterprise extends Enterprise {
     
-     public HRSAEnterprise(String name){
+    public HRSAEnterprise(String name){
         super(name,EnterpriseType.HRSA);
     }
     @Override
     public ArrayList<Role> getSupportedRole() {
         return null;
     }
+    
 }

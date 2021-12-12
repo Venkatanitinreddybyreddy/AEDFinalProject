@@ -31,7 +31,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author JKU
+ * @author nitin
  */
 public class CreatePatientJPanel extends javax.swing.JPanel {
 

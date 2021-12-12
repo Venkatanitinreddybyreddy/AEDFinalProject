@@ -37,7 +37,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author JKU
+ * @author balumullamuri
  */
 public class PatientConsentJPanel extends javax.swing.JPanel {
 

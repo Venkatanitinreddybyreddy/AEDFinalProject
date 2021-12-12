@@ -7,7 +7,7 @@ package userinterface.AdministrativeRole;
 
 /**
  *
- * @author JKU
+ * @author saiku
  */
 
 

@@ -17,7 +17,7 @@ import Magic.Design.MyJLabel;
 
 /**
  *
- * @author JKU
+ * @author nitin
  */
 public class ManageGovernmentCoordinatorProfile extends javax.swing.JPanel {
 

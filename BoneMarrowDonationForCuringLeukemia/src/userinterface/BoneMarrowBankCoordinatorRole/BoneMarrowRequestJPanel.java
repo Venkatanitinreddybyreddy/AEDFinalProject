@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.BoneMarrowBankCoordinatorRole;
+package userinterface.Bone_Marrow_Bank_CoordinatorRole;
 
 import Business.HLA.PersonHLA;
 import Business.DB4OUtil.DB4OUtil;
@@ -12,7 +12,7 @@ import Business.Enterprise.Enterprise;
 import Business.Network.Network;
 import Magic.Design.*;
 import Business.Organization.Organization;
-import Business.Organization.BoneMarrowBankOrganization;
+import Business.Organization.Bone_Marrow_Bank_Organization;
 import Business.Organization.SystemCoordinatorOrganization;
 import Business.UserAccount.UserAccount;
 import Business.WorkQueue.WorkRequest;
@@ -35,13 +35,13 @@ public class BoneMarrowRequestJPanel extends javax.swing.JPanel {
      * Creates new form BoneMarrowRequestJPanel
      */
     private UserAccount userAccount;
-    private BoneMarrowBankOrganization marroworganization;
+    private Bone_Marrow_Bank_Organization marroworganization;
     private Enterprise enterprise;
     private Network network;
     private DB4OUtil dB4OUtil = DB4OUtil.getInstance();
     private EcoSystem system;
     
-    public BoneMarrowRequestJPanel(UserAccount userAccount, BoneMarrowBankOrganization bmBankOrganization, Enterprise enterprise, Network network, EcoSystem system) {
+    public BoneMarrowRequestJPanel(UserAccount userAccount, Bone_Marrow_Bank_Organization bmBankOrganization, Enterprise enterprise, Network network, EcoSystem system) {
         initComponents();
         this.userAccount = userAccount;
         this.marroworganization = bmBankOrganization;
@@ -232,7 +232,7 @@ public class BoneMarrowRequestJPanel extends javax.swing.JPanel {
                 Enterprise ent = null;
                 Organization org = null;
         
-                for (Enterprise enterprise : network.getEnterpriseDirectory().getEnterpriseList()) {
+                for (Enterprise enterprise : network.getEnterprise_Directory().getEnterpriseList()) {
                     if (enterprise.getEnterpriseType().toString().equals("Hospital")) {
                             ent = enterprise;
                             break;

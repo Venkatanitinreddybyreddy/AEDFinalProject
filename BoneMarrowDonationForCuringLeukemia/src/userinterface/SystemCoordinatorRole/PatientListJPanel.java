@@ -63,10 +63,10 @@ public class PatientListJPanel extends javax.swing.JPanel {
         dtm.setRowCount(0);
         
         System.out.println("list of enterprises:");
-       // System.out.println(enterpriseDirectory.getEnterpriseList());
+       // System.out.println(Enterprise_Directory.getEnterpriseList());
         System.out.println("list of enterprises ends");
         System.out.println(network.getName());
-        for (Enterprise enterprise : network.getEnterpriseDirectory().getEnterpriseList()){
+        for (Enterprise enterprise : network.getEnterprise_Directory().getEnterpriseList()){
             if(enterprise.getEnterpriseType().toString().equals("Hospital")){
                 System.out.println("Hosp");
                 Object[] row = new Object[2];

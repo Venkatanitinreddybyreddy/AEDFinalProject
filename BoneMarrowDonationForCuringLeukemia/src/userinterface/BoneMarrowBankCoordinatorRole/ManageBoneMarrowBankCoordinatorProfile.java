@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.BoneMarrowBankCoordinatorRole;
+package userinterface.Bone_Marrow_Bank_CoordinatorRole;
 
 import userinterface.DoctorRole.*;
 import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
 import Business.Organization.DoctorOrganization;
-import Business.Organization.BoneMarrowBankOrganization;
+import Business.Organization.Bone_Marrow_Bank_Organization;
 import Business.UserAccount.UserAccount;
 import Magic.Design.*;
 import java.util.Date;
@@ -23,9 +23,9 @@ public class ManageBoneMarrowBankCoordinatorProfile extends javax.swing.JPanel {
      
      private UserAccount userAccount;
      private Enterprise enterprise ;
-     private BoneMarrowBankOrganization bmBankOrganization;
+     private Bone_Marrow_Bank_Organization bmBankOrganization;
     
-    public ManageBoneMarrowBankCoordinatorProfile(UserAccount userAccount, BoneMarrowBankOrganization bmBankOrganization, Enterprise enterprise) {
+    public ManageBoneMarrowBankCoordinatorProfile(UserAccount userAccount, Bone_Marrow_Bank_Organization bmBankOrganization, Enterprise enterprise) {
         initComponents();
         this.userAccount = userAccount;
         this.enterprise = enterprise;

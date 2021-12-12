@@ -6,6 +6,7 @@
 package Business.Enterprise;
 
 import Business.Organization.OrganizationDirectory;
+import Business.Organization.OrganizationDirectory;
 
 /**
  *

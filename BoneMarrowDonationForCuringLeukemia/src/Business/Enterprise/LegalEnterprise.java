@@ -10,14 +10,16 @@ import java.util.ArrayList;
 
 /**
  *
- * @author nitin
+ * @author JKU
  */
 public class LegalEnterprise extends Enterprise {
-     public LegalEnterprise(String name){
+    
+    public LegalEnterprise(String name){
         super(name,EnterpriseType.Legal);
     }
     @Override
     public ArrayList<Role> getSupportedRole() {
         return null;
     }
+    
 }

@@ -1,20 +1,20 @@
-/*
+ /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 package Business.Enterprise;
 
-import Business.Organization.OrganizationDirectory;
+import Business.Organization.Organization;
 import Business.Organization.OrganizationDirectory;
 
 /**
  *
- * @author nitin
+ * @author JKU
  */
-public class Enterprise {
+public abstract class Enterprise extends Organization{
     
-     private EnterpriseType enterpriseType;
+    private EnterpriseType enterpriseType;
     private OrganizationDirectory organizationDirectory;
     private long contact;
     private String email;
@@ -84,5 +84,8 @@ public class Enterprise {
     public void setZipcode(String zipcode) {
         this.zipcode = zipcode;
     }
+    
+    
+    
     
 }

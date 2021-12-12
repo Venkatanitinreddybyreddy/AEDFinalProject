@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.BloodCancerCentreCoordinatorRole;
+package userinterface.BloodLeukemia_Centre_Coordinator_Role;
 
 import static java.time.Clock.system;
 import javax.swing.JFrame;
@@ -17,7 +17,7 @@ import Business.EcoSystem;
 import userinterface.DoctorRole.*;
 import Business.Enterprise.Enterprise;
 import Business.Network.Network;
-import Business.Organization.BloodCancerCentreOrganization;
+import Business.Organization.Leukemia_Centre_Organization;
 import Business.Organization.DoctorOrganization;
 import Business.Organization.Organization;
 import Business.People.PatientDirectory;
@@ -37,15 +37,15 @@ import static javax.swing.SwingUtilities.getWindowAncestor;
  *
  * @author nitin
  */
-public class BloodCancerCentreCoordinatorWorkAreaJPanel extends javax.swing.JPanel {
+public class Leukemia_Centre_Coordinator_WorkAreaJPanel extends javax.swing.JPanel {
 
     /**
-     * Creates new form BloodCancerCentreCoordinatorWorkAreaJPanel
+     * Creates new form Leukemia_Centre_Coordinator_WorkAreaJPanel
      * 
      */
     boolean a = true;
     private UserAccount userAccount;
-    BloodCancerCentreOrganization cancerCentreOrganization;
+    Leukemia_Centre_Organization cancerCentreOrganization;
     Enterprise enterprise;
     EcoSystem system;
     PatientDirectory patientDirectory;
@@ -53,7 +53,7 @@ public class BloodCancerCentreCoordinatorWorkAreaJPanel extends javax.swing.JPan
     private Network network;
     
     
-    public BloodCancerCentreCoordinatorWorkAreaJPanel(UserAccount account,BloodCancerCentreOrganization cancerCentreOrganization, Enterprise enterprise, EcoSystem system, Network network) {
+    public Leukemia_Centre_Coordinator_WorkAreaJPanel(UserAccount account,Leukemia_Centre_Organization cancerCentreOrganization, Enterprise enterprise, EcoSystem system, Network network) {
         initComponents();
         this.system = system;
         this.userAccount = account;

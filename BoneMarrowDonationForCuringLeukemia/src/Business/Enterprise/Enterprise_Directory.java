@@ -12,7 +12,7 @@ import java.util.ArrayList;
  *
  * @author balumullamuri
  */
-public class EnterpriseDirectory {
+public class Enterprise_Directory {
     private ArrayList<Enterprise> enterpriseList;
    
 
@@ -24,7 +24,7 @@ public class EnterpriseDirectory {
         this.enterpriseList = enterpriseList;
     }
     
-    public EnterpriseDirectory(){
+    public Enterprise_Directory(){
         enterpriseList=new ArrayList<Enterprise>();
     }
     
@@ -40,7 +40,7 @@ public class EnterpriseDirectory {
             enterpriseList.add(enterprise);
         }
         else if(type==Enterprise.EnterpriseType.HRSA){
-            enterprise=new HRSAEnterprise(name);
+            enterprise=new HRSA_Enterprise(name);
             enterpriseList.add(enterprise);
         }
         else if(type==Enterprise.EnterpriseType.BoneMarrowBank){

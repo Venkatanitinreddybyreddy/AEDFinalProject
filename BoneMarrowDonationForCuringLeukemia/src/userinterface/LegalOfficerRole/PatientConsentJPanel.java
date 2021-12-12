@@ -12,7 +12,7 @@ import Business.Employee.Employee;
 import Business.Enterprise.Enterprise;
 import Business.Network.Network;
 import Business.Organization.Organization;
-import Business.Organization.BoneMarrowBankOrganization;
+import Business.Organization.Bone_Marrow_Bank_Organization;
 import Business.UserAccount.UserAccount;
 import Business.WorkQueue.WorkRequest;
 import Magic.Design.*;
@@ -241,7 +241,7 @@ public class PatientConsentJPanel extends javax.swing.JPanel {
         Enterprise ent = null;
         Organization org = null;
         
-        for (Enterprise enterprise : network.getEnterpriseDirectory().getEnterpriseList()) {
+        for (Enterprise enterprise : network.getEnterprise_Directory().getEnterpriseList()) {
             if (enterprise.getEnterpriseType().toString().equals("BoneMarrowBank")) {
             
                 ent = enterprise;
@@ -251,7 +251,7 @@ public class PatientConsentJPanel extends javax.swing.JPanel {
         }
         
         for (Organization organization : ent.getOrganizationDirectory().getOrganizationList()) {
-            if(organization instanceof BoneMarrowBankOrganization) {
+            if(organization instanceof Bone_Marrow_Bank_Organization) {
                 org = organization;
                 break;
             }

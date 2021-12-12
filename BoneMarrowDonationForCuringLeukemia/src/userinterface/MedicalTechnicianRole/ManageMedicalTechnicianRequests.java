@@ -11,7 +11,7 @@ import Business.EcoSystem;
 import Magic.Design.*;
 import Business.Enterprise.Enterprise;
 import Business.Network.Network;
-import Business.Organization.BoneMarrowBankOrganization;
+import Business.Organization.Bone_Marrow_Bank_Organization;
 import Business.Organization.Organization;
 import Business.Organization.MedicalTechnicianOrganization;
 import Business.People.Donor;
@@ -437,7 +437,7 @@ public class ManageMedicalTechnicianRequests extends javax.swing.JPanel {
            
         }
         else{
-        for(Enterprise ent : network.getEnterpriseDirectory().getEnterpriseList()){
+        for(Enterprise ent : network.getEnterprise_Directory().getEnterpriseList()){
             System.out.println("You are being monitored");
             System.out.println(ent.getEnterpriseType().toString());
               if(ent.getEnterpriseType().toString().equals("BoneMarrowBank")){
@@ -453,7 +453,7 @@ public class ManageMedicalTechnicianRequests extends javax.swing.JPanel {
         }
         for (Organization org: ep.getOrganizationDirectory().getOrganizationList()){
               System.out.println(org.getClass().getTypeName().toString()+" asit");
-              if(org.getClass().getTypeName().toString().equals("Business.Organization.BoneMarrowBankOrganization")){
+              if(org.getClass().getTypeName().toString().equals("Business.Organization.Bone_Marrow_Bank_Organization")){
                  org =org;
               }
         }  
@@ -463,7 +463,7 @@ public class ManageMedicalTechnicianRequests extends javax.swing.JPanel {
             org.getAllHLAs().add(PersonHLA.createHLA(String.valueOf(txtHLAList.getText())));
             PersonHLA h = new PersonHLA();
             h.updateHLAlist(txtHLAList.getText());
-            ((BoneMarrowBankOrganization)org).getInventory().HLACountAdd(h);
+            ((Bone_Marrow_Bank_Organization)org).getInventory().HLACountAdd(h);
           }
         catch( NullPointerException ex   )
           { System.out.println("");

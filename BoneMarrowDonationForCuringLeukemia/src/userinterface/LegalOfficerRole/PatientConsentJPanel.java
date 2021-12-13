@@ -137,7 +137,7 @@ public class PatientConsentJPanel extends javax.swing.JPanel {
                 btnSi8gnActionPerformed(evt);
             }
         });
-        add(btnSi8gn, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 660, 150, 40));
+        add(btnSi8gn, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 410, 150, 40));
 
         btnApproval.setBackground(new java.awt.Color(255, 255, 255));
         btnApproval.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
@@ -148,7 +148,7 @@ public class PatientConsentJPanel extends javax.swing.JPanel {
                 btnApprovalActionPerformed(evt);
             }
         });
-        add(btnApproval, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 410, 210, 40));
+        add(btnApproval, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 340, 210, 40));
 
         btnDisapproval.setBackground(new java.awt.Color(255, 255, 255));
         btnDisapproval.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
@@ -159,7 +159,7 @@ public class PatientConsentJPanel extends javax.swing.JPanel {
                 btnDisapprovalActionPerformed(evt);
             }
         });
-        add(btnDisapproval, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 530, 210, 40));
+        add(btnDisapproval, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 400, 210, 40));
 
         btnConsentForm.setBackground(new java.awt.Color(255, 255, 255));
         btnConsentForm.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
@@ -200,7 +200,7 @@ public class PatientConsentJPanel extends javax.swing.JPanel {
         add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1590, -1));
 
         lblConsent.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 255, 204)));
-        add(lblConsent, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 390, 230, 250));
+        add(lblConsent, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 390, 180, 180));
 
         btnPatientAgreement.setBackground(new java.awt.Color(255, 255, 255));
         btnPatientAgreement.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
@@ -275,22 +275,6 @@ public class PatientConsentJPanel extends javax.swing.JPanel {
        
     }//GEN-LAST:event_btnApprovalActionPerformed
 
-    private void btnConsentFormActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConsentFormActionPerformed
-        // TODO add your handling code here:
-        BufferedImage img1 = null;
-        try {
-            img1 = ImageIO.read(new File("organ_Agreement.jpg"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Image dimg = img1.getScaledInstance(lblConsent.getWidth(), lblConsent.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon imageIcon = new ImageIcon(dimg);
-        lblConsent.setIcon(imageIcon);
-        
-        
-        
-    }//GEN-LAST:event_btnConsentFormActionPerformed
-
     private void btnSi8gnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSi8gnActionPerformed
         // TODO add your handling code here:
         BufferedImage img1 = null;
@@ -307,20 +291,6 @@ public class PatientConsentJPanel extends javax.swing.JPanel {
         
         
     }//GEN-LAST:event_btnSi8gnActionPerformed
-
-    private void btnPatientAgreementActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPatientAgreementActionPerformed
-        // TODO add your handling code here:
-        BufferedImage img1 = null;
-        try {
-            img1 = ImageIO.read(new File("organ_Agreement_Donor.jpg"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Image dimg = img1.getScaledInstance(lblConsent.getWidth(), lblConsent.getHeight(), Image.SCALE_SMOOTH);
-        ImageIcon imageIcon = new ImageIcon(dimg);
-        lblConsent.setIcon(imageIcon);
-        
-    }//GEN-LAST:event_btnPatientAgreementActionPerformed
 
     private void btnDisapprovalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDisapprovalActionPerformed
         // TODO add your handling code here:
@@ -349,6 +319,34 @@ public class PatientConsentJPanel extends javax.swing.JPanel {
         }
         
     }//GEN-LAST:event_btnDisapprovalActionPerformed
+
+    private void btnPatientAgreementActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPatientAgreementActionPerformed
+        // TODO add your handling code here:
+        BufferedImage img1 = null;
+        try {
+            img1 = ImageIO.read(new File("organ_Agreement_Donor.jpg"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Image dimg = img1.getScaledInstance(lblConsent.getWidth(), lblConsent.getHeight(), Image.SCALE_SMOOTH);
+        ImageIcon imageIcon = new ImageIcon(dimg);
+        lblConsent.setIcon(imageIcon);
+
+    }//GEN-LAST:event_btnPatientAgreementActionPerformed
+
+    private void btnConsentFormActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConsentFormActionPerformed
+        // TODO add your handling code here:
+        BufferedImage img1 = null;
+        try {
+            img1 = ImageIO.read(new File("organ_Agreement.jpg"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Image dimg = img1.getScaledInstance(lblConsent.getWidth(), lblConsent.getHeight(), Image.SCALE_SMOOTH);
+        ImageIcon imageIcon = new ImageIcon(dimg);
+        lblConsent.setIcon(imageIcon);
+
+    }//GEN-LAST:event_btnConsentFormActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

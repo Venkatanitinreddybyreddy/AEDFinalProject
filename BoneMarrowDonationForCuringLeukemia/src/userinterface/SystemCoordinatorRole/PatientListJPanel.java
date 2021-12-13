@@ -125,11 +125,11 @@ public class PatientListJPanel extends javax.swing.JPanel {
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jLabel1.setText("Patients In Need For Cancer Treatment (BoneMarrow Recievers)");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 110, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 80, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jLabel2.setText("Assign the Patient to a Hospital");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 360, -1, -1));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 300, -1, -1));
 
         btnAssign.setBackground(new java.awt.Color(255, 255, 255));
         btnAssign.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
@@ -140,7 +140,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
                 btnAssignActionPerformed(evt);
             }
         });
-        add(btnAssign, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 640, 142, 60));
+        add(btnAssign, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 500, 120, 30));
 
         tblHospital.setBackground(new java.awt.Color(0, 0, 0));
         tblHospital.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
@@ -167,7 +167,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
         tblHospital.setShowVerticalLines(false);
         jScrollPane2.setViewportView(tblHospital);
 
-        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 410, 810, 200));
+        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, 810, 150));
 
         tblAssignment.setBackground(new java.awt.Color(0, 0, 0));
         tblAssignment.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
@@ -194,7 +194,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
         tblAssignment.setShowVerticalLines(false);
         jScrollPane4.setViewportView(tblAssignment);
 
-        add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, 900, 170));
+        add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 120, 900, 170));
 
         jPanel3.setBackground(new java.awt.Color(102, 102, 102));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));

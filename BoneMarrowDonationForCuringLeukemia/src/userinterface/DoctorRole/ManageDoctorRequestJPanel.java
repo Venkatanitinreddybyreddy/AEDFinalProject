@@ -147,7 +147,7 @@ public class ManageDoctorRequestJPanel extends javax.swing.JPanel {
                 btnAssignToMeActionPerformed(evt);
             }
         });
-        add(btnAssignToMe, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 360, 170, 40));
+        add(btnAssignToMe, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 270, 140, 30));
 
         btnTreatmentDone.setBackground(new java.awt.Color(255, 255, 255));
         btnTreatmentDone.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
@@ -158,7 +158,7 @@ public class ManageDoctorRequestJPanel extends javax.swing.JPanel {
                 btnTreatmentDoneActionPerformed(evt);
             }
         });
-        add(btnTreatmentDone, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 630, 180, 40));
+        add(btnTreatmentDone, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 510, 180, -1));
 
         tblDoctorOrganisation.setBackground(new java.awt.Color(0, 0, 0));
         tblDoctorOrganisation.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
@@ -185,7 +185,7 @@ public class ManageDoctorRequestJPanel extends javax.swing.JPanel {
         tblDoctorOrganisation.setShowVerticalLines(false);
         jScrollPane4.setViewportView(tblDoctorOrganisation);
 
-        add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, 910, 180));
+        add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, 910, 140));
 
         tblDoctor.setBackground(new java.awt.Color(0, 0, 0));
         tblDoctor.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
@@ -212,7 +212,7 @@ public class ManageDoctorRequestJPanel extends javax.swing.JPanel {
         tblDoctor.setShowVerticalLines(false);
         jScrollPane5.setViewportView(tblDoctor);
 
-        add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 420, 910, 180));
+        add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, 910, 180));
 
         jPanel3.setBackground(new java.awt.Color(31, 31, 31));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));

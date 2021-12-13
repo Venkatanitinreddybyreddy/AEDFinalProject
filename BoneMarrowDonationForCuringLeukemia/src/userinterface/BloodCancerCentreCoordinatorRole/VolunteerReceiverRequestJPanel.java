@@ -141,7 +141,7 @@ public class VolunteerReceiverRequestJPanel extends javax.swing.JPanel {
                 buttonRejectActionPerformed(evt);
             }
         });
-        add(buttonReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 680, 100, 40));
+        add(buttonReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 350, 100, 40));
 
         buttonApprove.setBackground(new java.awt.Color(255, 255, 255));
         buttonApprove.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
@@ -153,7 +153,7 @@ public class VolunteerReceiverRequestJPanel extends javax.swing.JPanel {
                 buttonApproveActionPerformed(evt);
             }
         });
-        add(buttonApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 680, 110, 40));
+        add(buttonApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 300, 110, 40));
 
         jLabel6.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
         jLabel6.setText("UID");
@@ -273,7 +273,7 @@ public class VolunteerReceiverRequestJPanel extends javax.swing.JPanel {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, 44, Short.MAX_VALUE)
+                .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, 48, Short.MAX_VALUE)
                 .addContainerGap())
         );
 

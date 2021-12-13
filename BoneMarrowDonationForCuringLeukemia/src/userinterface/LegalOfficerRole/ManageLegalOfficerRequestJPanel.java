@@ -241,14 +241,19 @@ public class ManageLegalOfficerRequestJPanel extends javax.swing.JPanel {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 670, 290, 40));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 600, 110, 40));
 
         toTextField.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
-        toTextField.setText("AEDprojSpring21@gmail.com");
+        toTextField.setText("nitin.redde@gmail.com");
+        toTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                toTextFieldActionPerformed(evt);
+            }
+        });
         add(toTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 510, 320, -1));
 
         fromTextField.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
-        fromTextField.setText("AEDprojSpring21@gmail.com");
+        fromTextField.setText("nitin.redde@gmail.com");
         fromTextField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fromTextFieldActionPerformed(evt);
@@ -271,7 +276,7 @@ public class ManageLegalOfficerRequestJPanel extends javax.swing.JPanel {
         messageTextField.setText("Hello,\n\nIf you are still in need of Organ Transplant of Bone Marrow, please go through this mail \nand sign the required consent form. So that we can proceed forward with treatment\n\nThanks and Regards,\nLegal Operations Officer");
         jScrollPane1.setViewportView(messageTextField);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 510, 330, 210));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 510, 330, 130));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAssignActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAssignActionPerformed
@@ -388,6 +393,10 @@ public class ManageLegalOfficerRequestJPanel extends javax.swing.JPanel {
     private void subjectTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_subjectTextFieldActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_subjectTextFieldActionPerformed
+
+    private void toTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toTextFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_toTextFieldActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

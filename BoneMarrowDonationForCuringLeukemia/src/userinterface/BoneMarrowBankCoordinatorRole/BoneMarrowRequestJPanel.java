@@ -106,7 +106,7 @@ public class BoneMarrowRequestJPanel extends javax.swing.JPanel {
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jLabel1.setText("List of BoneMarrow Requests");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 410, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 300, -1, -1));
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(376, 247, -1, -1));
 
         btnApprove.setBackground(new java.awt.Color(255, 255, 255));
@@ -118,7 +118,7 @@ public class BoneMarrowRequestJPanel extends javax.swing.JPanel {
                 btnApproveActionPerformed(evt);
             }
         });
-        add(btnApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 690, 210, 40));
+        add(btnApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 530, 210, 40));
 
         btnOnHold.setBackground(new java.awt.Color(255, 255, 255));
         btnOnHold.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
@@ -129,7 +129,7 @@ public class BoneMarrowRequestJPanel extends javax.swing.JPanel {
                 btnOnHoldActionPerformed(evt);
             }
         });
-        add(btnOnHold, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 690, 190, 40));
+        add(btnOnHold, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 530, 190, 40));
 
         tblBoneMarrowCoordinator.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
         tblBoneMarrowCoordinator.setModel(new javax.swing.table.DefaultTableModel(
@@ -159,7 +159,7 @@ public class BoneMarrowRequestJPanel extends javax.swing.JPanel {
         });
         jScrollPane2.setViewportView(tblBoneMarrowCoordinator);
 
-        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 450, 980, 210));
+        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 340, 890, 170));
 
         jPanel3.setBackground(new java.awt.Color(31, 31, 31));
         jPanel3.setPreferredSize(new java.awt.Dimension(926, 70));
@@ -204,11 +204,11 @@ public class BoneMarrowRequestJPanel extends javax.swing.JPanel {
             tblHlaAvailability.getColumnModel().getColumn(1).setPreferredWidth(30);
         }
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 130, 980, 260));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 120, 900, 170));
 
         jLabel6.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jLabel6.setText("Bone Marrow Inventory");
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 90, 330, 30));
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 80, 330, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnApproveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnApproveActionPerformed

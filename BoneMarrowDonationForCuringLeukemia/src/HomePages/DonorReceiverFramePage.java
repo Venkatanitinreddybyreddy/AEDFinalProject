@@ -16,7 +16,9 @@ import userinterface.GovernmentCoordinatorRole.NewDonorJPanel;
 
 public class DonorReceiverFramePage extends javax.swing.JFrame {
 
-    
+    /**
+     * Creates new form DonorReceiverFramePage
+     */
     
     
     public DonorReceiverFramePage(String type, EcoSystem system) {

@@ -3,10 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/AdministrativeRole/ManageEmployeeJPanel.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/GovernmentCoordinatorRole/CreateDonorJPanel.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/GovernmentCoordinatorRole/DonorStatusJPanel.java</file>
-            <file>file:/C:/devtools/adrrocks/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/AdministrativeRole/AdminWorkAreaJPanel.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/LegalOfficerRole/PatientConsentJPanel.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/LegalOfficerRole/ManageLegalOfficerProfile.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/Business/Enterprise/Enterprise_Directory.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/HomePages/MainJFrame.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/LegalOfficerRole/ManageLegalOfficerRequestJPanel.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/SystemCoordinatorRole/DonorListJPanel.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/SystemCoordinatorRole/ManageSystemCoordinatorProfile.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/BoneMarrowBankCoordinatorRole/BoneMarrowBankCoordinatorWorkAreaJPanel.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/DoctorRole/ManageDoctorRequestJPanel.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/SystemCoordinatorRole/PatientListJPanel.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/LegalOfficerRole/LegalOfficerWorkAreaJPanel.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/BloodCancerCentreCoordinatorRole/VolunteerReceiverRequestJPanel.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/BoneMarrowBankCoordinatorRole/BoneMarrowRequestJPanel.java</file>
+            <file>file:/C:/Users/nitin/OneDrive/Documents/GitHub/AEDFinalProject/BoneMarrowDonationForCuringLeukemia/src/userinterface/SystemCoordinatorRole/SystemCoordinatorWorkAreaJPanel.java</file>
         </group>
     </open-files>
 </project-private>
